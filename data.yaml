@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 5
+names: ['crack', 'gas', 'leak', 'no leak', 'water']
+
+roboflow:
+  workspace: gas-leak
+  project: gas-pipeline-prediction
+  version: 11
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/gas-leak/gas-pipeline-prediction/dataset/11
